@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "ONG A",
+    "cause": "Educação Infantil",
+    "description": "ONG A trabalha para fornecer educação de qualidade para crianças carentes.",
+    "logoUrl": "https://example.com/onga_logo.jpg",
+    "website": "https://www.onga.com",
+    "contactEmail": "contact@onga.com"
+  },
+  {
+    "id": 2,
+    "name": "ONG B",
+    "cause": "Saúde Pública",
+    "description": "ONG B trabalha para melhorar o acesso à saúde em comunidades desfavorecidas.",
+    "logoUrl": "https://example.com/ongb_logo.jpg",
+    "website": "https://www.ongb.com",
+    "contactEmail": "contact@ongb.com"
+  },
+  {
+    "id": 3,
+    "name": "ONG C",
+    "cause": "Proteção Ambiental",
+    "description": "ONG C dedica-se à preservação do meio ambiente e à conservação da vida selvagem.",
+    "logoUrl": "https://example.com/ongc_logo.jpg",
+    "website": "https://www.ongc.com",
+    "contactEmail": "contact@ongc.com"
+  },
+  {
+    "id": 4,
+    "name": "ONG D",
+    "cause": "Combate à Fome",
+    "description": "ONG D trabalha para erradicar a fome em comunidades carentes.",
+    "logoUrl": "https://example.com/ongd_logo.jpg",
+    "website": "https://www.ongd.com",
+    "contactEmail": "contact@ongd.com"
+  },
+  {
+    "id": 5,
+    "name": "ONG E",
+    "cause": "Empoderamento Feminino",
+    "description": "ONG E promove a igualdade de gênero e o empoderamento das mulheres.",
+    "logoUrl": "https://example.com/onge_logo.jpg",
+    "website": "https://www.onge.com",
+    "contactEmail": "contact@onge.com"
+  },
+  {
+    "id": 6,
+    "name": "ONG F",
+    "cause": "Apoio a Refugiados",
+    "description": "ONG F oferece apoio e assistência para refugiados em busca de abrigo e segurança.",
+    "logoUrl": "https://example.com/ongf_logo.jpg",
+    "website": "https://www.ongf.com",
+    "contactEmail": "contact@ongf.com"
+  },
+  {
+    "id": 7,
+    "name": "ONG G",
+    "cause": "Desenvolvimento Comunitário",
+    "description": "ONG G trabalha para promover o desenvolvimento sustentável em comunidades carentes.",
+    "logoUrl": "https://example.com/ongg_logo.jpg",
+    "website": "https://www.ongg.com",
+    "contactEmail": "contact@ongg.com"
+  },
+  {
+    "id": 8,
+    "name": "ONG H",
+    "cause": "Apoio a Pessoas com Deficiência",
+    "description": "ONG H oferece apoio e recursos para pessoas com deficiência.",
+    "logoUrl": "https://example.com/ongh_logo.jpg",
+    "website": "https://www.ongh.com",
+    "contactEmail": "contact@ongh.com"
+  },
+  {
+    "id": 9,
+    "name": "ONG I",
+    "cause": "Desenvolvimento Rural",
+    "description": "ONG I promove o desenvolvimento sustentável em áreas rurais.",
+    "logoUrl": "https://example.com/ongi_logo.jpg",
+    "website": "https://www.ongi.com",
+    "contactEmail": "contact@ongi.com"
+  },
+  {
+    "id": 10,
+    "name": "ONG J",
+    "cause": "Apoio à Juventude",
+    "description": "ONG J oferece suporte e oportunidades para jovens em situação de risco.",
+    "logoUrl": "https://example.com/ongj_logo.jpg",
+    "website": "https://www.ongj.com",
+    "contactEmail": "contact@ongj.com"
+  },
+  {
+    "id": 11,
+    "name": "ONG K",
+    "cause": "Direitos Humanos",
+    "description": "ONG K defende os direitos humanos e a justiça social em todo o mundo.",
+    "logoUrl": "https://example.com/ongk_logo.jpg",
+    "website": "https://www.ongk.com",
+    "contactEmail": "contact@ongk.com"
+  },
+  {
+    "id": 12,
+    "name": "ONG L",
+    "cause": "Apoio à Terceira Idade",
+    "description": "ONG L oferece cuidados e suporte para idosos em comunidades carentes.",
+    "logoUrl": "https://example.com/ongl_logo.jpg",
+    "website": "https://www.ongl.com",
+    "contactEmail": "contact@ongl.com"
+  },
+  {
+    "id": 13,
+    "name": "ONG M",
+    "cause": "Cultura e Arte",
+    "description": "ONG M promove a cultura e as artes em comunidades desfavorecidas.",
+    "logoUrl": "https://example.com/ongm_logo.jpg",
+    "website": "https://www.ongm.com",
+    "contactEmail": "contact@ongm.com"
+  },
+  {
+    "id": 14,
+    "name": "ONG N",
+    "cause": "Empreendedorismo Social",
+    "description": "ONG N apoia empreendedores sociais em comunidades carentes.",
+    "logoUrl": "https://example.com/ongn_logo.jpg",
+    "website": "https://www.ongn.com",
+    "contactEmail": "contact@ongn.com"
+  },
+  {
+    "id": 15,
+    "name": "ONG O",
+    "cause": "Saúde Mental",
+    "description": "ONG O oferece suporte e recursos para pessoas com doenças mentais.",
+    "logoUrl": "https://example.com/ongo_logo.jpg",
+    "website": "https://www.ongo.com",
+    "contactEmail": "contact@ongo.com"
+  }
+]
+
