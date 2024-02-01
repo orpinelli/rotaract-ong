@@ -1,6 +1,6 @@
 'use client'
 
-import ongsData from '../../public/ongs.json'; // Importando o JSON local das ONGs
+import ongsData from '../public/ongs.json'; // Importando o JSON local das ONGs
 
 import * as React from 'react';
 import { experimentalStyled as styled } from '@mui/material/styles';
