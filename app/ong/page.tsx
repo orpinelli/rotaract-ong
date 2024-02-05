@@ -1,11 +1,10 @@
 import Card from "@/components/Card";
-import Search from "@/components/Search";
-
+import Header from "@/components/Header";
 
 export default function Ongs() {
   return(
-    <main>
-      <Search/>
+    <main>   
+      <Header/>
       <br/>   <br/>   <br/>
       <Card/>
     </main>
