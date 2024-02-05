@@ -89,17 +89,17 @@ const IconWrapper = styled.span`
 `;
 
 const Title = styled.h1`
-font-size: 8vw;
+font-size: 32px;
 text-transform: uppercase;
 text-align: center;
 line-height: 1;
-width: 60%;
+width: 50%;
 
 @media (min-width: 601px) and (max-width: 1024px) {
-  font-size: 5vw;
+  font-size: 60px;
 }
 @media (min-width: 1025px) {
-  font-size: 6vw;
+  font-size: 80px;
 }
 `
 
@@ -117,9 +117,8 @@ font-family: 'Work Sans', sans-serif;
 `
 
 const WrapperTitle = styled.div`
-font-size: 3vw;
 position: relative;
-top: -150px;
+top: -50px;
 background: #000405;
 display: flex;
 align-items: center;
@@ -127,14 +126,21 @@ justify-content: center;
 color: #fff;
 font-family: 'Work Sans', sans-serif;
 font-weight: 900;
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  top: -60px;
+}
+@media (min-width: 1025px) {
+  top: -150px;
+}
 `
 
 const SubTitle = styled.h2`
+position: relative;
+top: -30px;
 font-weight: 900;
 font-family: 'Work Sans', sans-serif;
-position: relative;
-top: -70px;
-font-size: 1.5vw;
+font-size: 18px;
 text-align: center;
 line-height: 1;
 background-size: 110% auto;
@@ -143,15 +149,22 @@ color: transparent;
 -webkit-background-clip: text;
 background-clip: text;
 color: #efefef;
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  top: -60px;
+}
+@media (min-width: 1025px) {
+  top: -80px;
+}
 `
 
 const Text = styled.p`
-font-weight: 500;
-width: 70%;
-font-family: 'Work Sans', sans-serif;
 position: relative;
-top: -60px;
-font-size: 1.2vw;
+top: -20px;
+font-weight: 500;
+width: 60%;
+font-family: 'Work Sans', sans-serif;
+font-size: 14px;
 text-align: center;
 line-height: 1;
 background-size: 110% auto;
@@ -160,6 +173,13 @@ color: transparent;
 -webkit-background-clip: text;
 background-clip: text;
 color: #efefef;
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  top: -50px;
+}
+@media (min-width: 1025px) {
+  top: -60px;
+}
 
 `
 
