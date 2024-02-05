@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Box from '@mui/material/Box';
+import Image from 'next/image';
 
 export const StyledONGCardContainer = styled(Box)`
   display: flex;
@@ -25,9 +26,19 @@ export const ONGCause = styled('p')`
   margin-bottom: 1rem;
 `;
 
-export const ONGLogo = styled('img')`
+export const ONGLogo = styled(Image)`
   width: 100%;
   height: auto;
   object-fit: cover;
+
+  @media (max-width: 600px) {
+    width: 360px; 
+  }
+  @media (min-width: 601px) and (max-width: 1024px) {
+    width: 350px; 
+  }
+  @media (min-width: 1025px) {
+    width: 330px; 
+  }
 `;
 
