@@ -198,16 +198,20 @@ Juntos somos parte de algo extraordinário.</Text>
         </Wrapper>
         <Footer>
           <LogoContainer>
+          <Link  href="https://www.instagram.com/ararasdepre/" target="_blank">
           <Logo 
             src={"/Rotaract.png"} 
             width={450}
             height={400} 
             alt={""}/>
+           </Link >
+            <Link  href="https://www.instagram.com/rotaractararas/" target="_blank">
             <Logo 
             src={"https://araras.sp.gov.br/assets/img/content/logo-branco.png"} 
             width={400}
             height={400}
             alt={""}/>
+            </Link >
           </LogoContainer>
         </Footer>
       </Container>
