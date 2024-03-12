@@ -28,7 +28,7 @@ export default function Card() {
       <Grid container spacing={2}>
         {ongsData.map((ongs, index) => (
           <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
-            <Link href={''} passHref>
+            <Link href={'/detalhes'} passHref>
               <Item>
                 <S.ONGContent>
                   <S.ONGLogo
