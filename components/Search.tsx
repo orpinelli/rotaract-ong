@@ -1,90 +1,19 @@
 'use client'
 
-
-import * as React from 'react';
-import { styled, alpha } from '@mui/material/styles';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import InputBase from '@mui/material/InputBase';
-import SearchIcon from '@mui/icons-material/Search';
-
-const Search = styled('div', { shouldForwardProp: (prop) => prop !== 'isSelected' })<{ isSelected: boolean }>(({ theme, isSelected }) => ({
-  position: 'relative',
-  borderRadius: theme.shape.borderRadius,
-  backgroundColor: isSelected ? alpha('#161A1D', 0.25) : '#c7d7dc',
-  '&:hover': {
-    backgroundColor: isSelected ? alpha('#161A1D', 0.35) : alpha('#161A1D', 0.1),
-  },
-  marginLeft: 0,
-  [theme.breakpoints.up('sm')]: {
-    marginLeft: theme.spacing(1),
-    width: '600px', 
-    maxWidth: '600px', 
-    borderRadius: "12px",
-  },
-  [theme.breakpoints.down('sm')]: {
-    width: '100%', 
-  },
-}));
-
-const SearchIconWrapper = styled('div')(({ theme }) => ({
-  padding: theme.spacing(0, 2),
-  height: '100%',
-  position: 'absolute',
-  pointerEvents: 'none',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-}));
-
-const StyledInputBase = styled(InputBase)(({ theme }) => ({
-  color: 'inherit',
-  width: '100%',
-  '& .MuiInputBase-input': {
-    padding: theme.spacing(1, 1, 1, 0),
-    paddingLeft: `calc(1em + ${theme.spacing(4)})`,
-    transition: theme.transitions.create('width'),
-    [theme.breakpoints.up('sm')]: {
-      width: '12ch',
-      '&:focus': {
-        width: '20ch',
-      },
-    },
-  },
-}));
-
-const ToolbarContainer = styled(Box)(({ theme }) => ({
-  borderRadius: "12px",
-  backgroundColor: 'transparent',
-  display: 'flex', 
-  justifyContent: 'center', 
-  alignItems: 'center', 
-}));
-
 export default function SearchAppBar() {
-  const [isSelected, setIsSelected] = React.useState(false);
-
-  const handleSelect = () => {
-    setIsSelected(true);
-  };
-
-  const handleDeselect = () => {
-    setIsSelected(false);
-  };
-
   return (
-    <ToolbarContainer>
-      <Toolbar>
-        <Search isSelected={isSelected} onClick={handleSelect} onBlur={handleDeselect}>
-          <SearchIconWrapper>
-            <SearchIcon />
-          </SearchIconWrapper>
-          <StyledInputBase
-            placeholder="Search…"
-            inputProps={{ 'aria-label': 'search' }}
-          />
-        </Search>
-      </Toolbar>
-    </ToolbarContainer>
+      <form className="max-w-md mx-auto mt-12">   
+          <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+          <div className="relative">
+              <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                  <svg className="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+                  </svg>
+              </div>
+              <input type="search" id="default-search" className="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Mockups, Logos..." required />
+              <button type="submit" className="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+          </div>
+      </form>
+
   );
 }

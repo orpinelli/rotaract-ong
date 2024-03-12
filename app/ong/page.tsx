@@ -5,7 +5,6 @@ export default function Ongs() {
   return(
     <main>   
       <Header/>
-      <br/>   <br/>   <br/>
       <Card/>
     </main>
   )
